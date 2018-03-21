@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let vc = CentralManager.sharedInstance().doSomething(callback: { (result) in
+            print(result ?? "default value")
+        })
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
