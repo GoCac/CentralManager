@@ -16,7 +16,7 @@
 		396182A12062DF7100A5849B /* CentralManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396182A02062DF7100A5849B /* CentralManagerUITests.swift */; };
 		396182B92062ED4500A5849B /* CentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 396182B82062ED4500A5849B /* CentralManager.m */; };
 		396182C12062EEED00A5849B /* CentralManager+Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = 396182C02062EEED00A5849B /* CentralManager+Pay.m */; };
-		396182C32062EF8C00A5849B /* Target_Moudle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396182C22062EF8C00A5849B /* Target_Moudle.swift */; };
+		396182C32062EF8C00A5849B /* Target_Pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396182C22062EF8C00A5849B /* Target_Pay.swift */; };
 		396182C52062F05100A5849B /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396182C42062F05100A5849B /* PayViewController.swift */; };
 		3995B8C72062F3BB008BBDE6 /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3995B8C62062F3BB008BBDE6 /* PayViewController.xib */; };
 /* End PBXBuildFile section */
@@ -57,7 +57,7 @@
 		396182BB2062ED8700A5849B /* CentralManager-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CentralManager-Bridging-Header.h"; sourceTree = "<group>"; };
 		396182BF2062EEED00A5849B /* CentralManager+Pay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CentralManager+Pay.h"; sourceTree = "<group>"; };
 		396182C02062EEED00A5849B /* CentralManager+Pay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CentralManager+Pay.m"; sourceTree = "<group>"; };
-		396182C22062EF8C00A5849B /* Target_Moudle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Moudle.swift; sourceTree = "<group>"; };
+		396182C22062EF8C00A5849B /* Target_Pay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Pay.swift; sourceTree = "<group>"; };
 		396182C42062F05100A5849B /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
 		3995B8C62062F3BB008BBDE6 /* PayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,8 +162,8 @@
 		3995B8C82062F902008BBDE6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				396182BF2062EEED00A5849B /* CentralManager+Pay.h */,
 				396182C02062EEED00A5849B /* CentralManager+Pay.m */,
+				396182BF2062EEED00A5849B /* CentralManager+Pay.h */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 		3995B8C92062F922008BBDE6 /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				396182C22062EF8C00A5849B /* Target_Moudle.swift */,
+				396182C22062EF8C00A5849B /* Target_Pay.swift */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -334,7 +334,7 @@
 				396182812062DF7100A5849B /* AppDelegate.swift in Sources */,
 				396182C52062F05100A5849B /* PayViewController.swift in Sources */,
 				396182B92062ED4500A5849B /* CentralManager.m in Sources */,
-				396182C32062EF8C00A5849B /* Target_Moudle.swift in Sources */,
+				396182C32062EF8C00A5849B /* Target_Pay.swift in Sources */,
 				396182C12062EEED00A5849B /* CentralManager+Pay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

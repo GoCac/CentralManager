@@ -1,5 +1,5 @@
 //
-//  Target_Test.swift
+//  Target_Pay.swift
 //  CentralManager
 //
 //  Created by Youhao Gong 宫酉昊 on 2018/3/22.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-@objc(Target_Module)
-class Target_Module: NSObject {
+@objc(Target_Pay)
+class Target_Pay: NSObject {
     @objc
     func Action_viewController(params:NSDictionary) -> UIViewController {
         
